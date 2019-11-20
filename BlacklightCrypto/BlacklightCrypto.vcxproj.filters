@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Crypto">
+      <UniqueIdentifier>{28b4e680-dbb0-4149-8750-abcbf51b0a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Crypto">
+      <UniqueIdentifier>{108aec81-6a5c-4e95-a5fe-55a260f971c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random">
+      <UniqueIdentifier>{0712ac10-3c1f-40eb-b632-aae6ec4196b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Random">
+      <UniqueIdentifier>{3b689cec-1454-438d-95e8-1c08cc4ebfd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Crypto\RSA.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Crypto\AES.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random\SSERand.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Crypto\RSA.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Random\SSERand.cpp">
+      <Filter>Source Files\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Crypto\AES.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

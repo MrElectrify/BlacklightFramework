@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{bd3dff20-4280-4464-b4cc-f9d9bf255597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{0c87a770-a138-4963-b979-377d92f6c6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threads">
+      <UniqueIdentifier>{177b5f2a-0334-4b48-90d2-e3a85b493a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threads">
+      <UniqueIdentifier>{7d28df35-8ef3-4f34-833a-0230d715dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\TLS">
+      <UniqueIdentifier>{f4bc5a48-6467-4395-82a5-bc744e2219a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\TLS">
+      <UniqueIdentifier>{99e2570c-d59d-4e66-83a7-164760b91623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\BLE">
+      <UniqueIdentifier>{fae817f3-c4b8-4262-a3f7-826b39617a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\BLE">
+      <UniqueIdentifier>{c0cf449f-27a7-4a08-9106-d34cb4a621ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\BLE\Legacy">
+      <UniqueIdentifier>{d4dd5e34-c036-4554-9cdd-47310712a0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\BLE\Legacy">
+      <UniqueIdentifier>{fb8a3f00-2399-47d7-a3c7-64b8d1cd2f05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Networking\TCPSocket.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\Acceptor.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\Endpoint.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\Error.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\Exception.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Threads\ExecuteGuard.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Threads\Worker.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\Buffer.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\TLS\Context.h">
+      <Filter>Header Files\Networking\TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\TLS\TLSSocket.h">
+      <Filter>Header Files\Networking\TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\BLE\Context.h">
+      <Filter>Header Files\Networking\BLE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\BLE\Legacy\BLESocket.h">
+      <Filter>Header Files\Networking\BLE\Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Networking\BLE\BLESocket.h">
+      <Filter>Header Files\Networking\BLE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Networking\Acceptor.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\Endpoint.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\TCPSocket.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Threads\Worker.cpp">
+      <Filter>Source Files\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\Error.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\Buffer.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\TLS\Context.cpp">
+      <Filter>Source Files\Networking\TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\TLS\TLSSocket.cpp">
+      <Filter>Source Files\Networking\TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\BLE\Context.cpp">
+      <Filter>Source Files\Networking\BLE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\BLE\Legacy\BLESocket.cpp">
+      <Filter>Source Files\Networking\BLE\Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Networking\BLE\BLESocket.cpp">
+      <Filter>Source Files\Networking\BLE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
